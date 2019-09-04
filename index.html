@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Задача “Рейтинг языков программирования”</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="wrapp">
+                            <div class="form">
+
+                                <div class="form-inline">
+                                    <div class="form-group">
+                                        <select class="form-control" name="select" id="select">
+                                            <option selected="selected"> Выберите направление разработки</option>
+                                            <option value="frontend">Front-end</option>
+                                            <option value="backend">Back-end</option>
+                                            <option value="mobile">Mobile</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Загрузить</button>
+                                </div>
+
+                                <div class="form__result" id="form__result">
+                                    <template class="template" id="template">
+                                        <div class="media" id="media">
+                                            <img src="#" class="media__img" alt="...">
+                                            <div class="media__body">
+                                                <h5 class="media__title"></h5>
+                                                <p class="media__text num1">Основан в <span></span></p>
+                                                <p class="media__text num2"><span></span> проектов на Git hub</p>
+                                                <a class="media__link" href="#">Документация</a>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="index.js"> </script>
+    </body>
+
+</html>

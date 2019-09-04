@@ -1,0 +1,53 @@
+body {
+    background: silver
+}
+
+.wrapp {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 50vw;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 15px;
+}
+
+.form-inline {
+    justify-content: center;
+}
+
+.form .form-inline .form-group {
+    margin-right: 10px
+}
+
+.media {
+    width: 30vw;
+    margin: 15px auto;
+    border: 1px solid #ced4da;
+}
+
+.media .media__body {
+    margin-left: 15px;
+}
+
+.media .media__body p {
+    margin: 0
+}
+
+.media .media__img {
+    object-fit: cover;
+    width: 130px;
+    height: 130px;
+}
+
+.template {
+    display: block
+}
+
+.template .media:first-child {
+    display: none
+}
