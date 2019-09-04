@@ -78,8 +78,12 @@ body {
     border: 1px solid #ced4da;
 }
 
+.media .media__body .media__title {
+    margin-bottom: 0;
+}
+
 .media .media__body {
-    margin-left: 15px;
+    margin: 10px;
 }
 
 .media .media__body p {
@@ -88,8 +92,9 @@ body {
 
 .media .media__img {
     object-fit: cover;
-    width: 130px;
-    height: 130px;
+    width: 96px;
+    height: 96px;
+    margin: 10px 0 10px 10px;
 }
 
 .template {
