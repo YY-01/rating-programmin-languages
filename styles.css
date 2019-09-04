@@ -24,6 +24,54 @@ body {
     margin-right: 10px
 }
 
+.form-control {
+    padding: .375rem 1.5rem;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper>select {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-wrapper>select::-ms-expand {
+    display: none;
+}
+
+.select-arrow {
+    width: 8px;
+    height: 0px;
+    background: transparent;
+    position: absolute;
+    right: 6px;
+    top: 21px
+}
+
+.select-arrow:before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    border: 4px solid transparent;
+    border-bottom-color: #495057;
+    border-top: 0;
+}
+
+.select-arrow:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    border: 4px solid transparent;
+    border-top-color: #495057;
+    border-bottom: 0;
+}
+
 .media {
     width: 30vw;
     margin: 15px auto;
